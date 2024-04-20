@@ -1,11 +1,19 @@
 import React from "react";
-import {Nav, Navbar, NavDropdown, Form, Button, FormControl, Container} from "react-bootstrap";
+import {
+  Nav,
+  Navbar,
+  NavDropdown,
+  Form,
+  Button,
+  FormControl,
+  Container,
+} from "react-bootstrap";
 
 const NavbarComponents = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      {/* <Container> */}
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+    <Navbar variant= "dark" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home"> <strong>Waroenkan</strong> Cashier</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -24,7 +32,7 @@ const NavbarComponents = () => {
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-      {/* </Container> */}
+      </Container>
     </Navbar>
   );
 };
