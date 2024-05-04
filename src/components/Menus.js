@@ -16,3 +16,5 @@ export const Menus = ({ menu, addCarts }) => {
     </Col>
   );
 };
+
+export default Menus;
