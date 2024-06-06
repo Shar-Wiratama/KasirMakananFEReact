@@ -1,0 +1,478 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "nama": "Makanan Berat"
+    },
+    {
+      "id": "2",
+      "nama": "Makanan Ringan"
+    },
+    {
+      "id": "3",
+      "nama": "Minuman"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "kode": "MB-01",
+      "nama": "Nasi Kebuli Ayam",
+      "harga": 22500,
+      "is_ready": true,
+      "gambar": "Nasi-kebuli-ayam.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan Berat"
+      }
+    },
+    {
+      "id": "2",
+      "kode": "MB-02",
+      "nama": "Nasi Gulai Kambing",
+      "harga": 27500,
+      "is_ready": true,
+      "gambar": "Nasi-gulai-kambing.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan Berat"
+      }
+    },
+    {
+      "id": "3",
+      "kode": "MB-03",
+      "nama": "Nasi Liwet",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "Nasi-liwet.jpg",
+      "category": {
+        "id": 1,
+        "nama": "Makanan Berat"
+      }
+    },
+    {
+      "id": "4",
+      "kode": "MR-01",
+      "nama": "Cireng Bumbu",
+      "harga": 10000,
+      "is_ready": true,
+      "gambar": "Cireng-bumbu.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Makanan Ringan"
+      }
+    },
+    {
+      "id": "5",
+      "kode": "MR-02",
+      "nama": "Kentang Sosis",
+      "harga": 13500,
+      "is_ready": true,
+      "gambar": "Kentang-sosis.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Makanan Ringan"
+      }
+    },
+    {
+      "id": "6",
+      "kode": "MR-03",
+      "nama": "Singkong Keju",
+      "harga": 8000,
+      "is_ready": true,
+      "gambar": "Singkong-keju.jpg",
+      "category": {
+        "id": 2,
+        "nama": "Makanan Ringan"
+      }
+    },
+    {
+      "id": "7",
+      "kode": "MI-01",
+      "nama": "Es Teh",
+      "harga": 5000,
+      "is_ready": true,
+      "gambar": "Es-teh.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": "8",
+      "kode": "MI-02",
+      "nama": "Es Jeruk",
+      "harga": 8000,
+      "is_ready": true,
+      "gambar": "Es-jeruk.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Minuman"
+      }
+    },
+    {
+      "id": "9",
+      "kode": "MI-03",
+      "nama": "Mocktail",
+      "harga": 14500,
+      "is_ready": true,
+      "gambar": "Mocktail.jpg",
+      "category": {
+        "id": 3,
+        "nama": "Minuman"
+      }
+    }
+  ],
+  "carts": [
+    {
+      "id": "075f",
+      "jumlah": 1,
+      "total_harga": 22500,
+      "product": {
+        "id": "1",
+        "kode": "MB-01",
+        "nama": "Nasi Kebuli Ayam",
+        "harga": 22500,
+        "is_ready": true,
+        "gambar": "Nasi-kebuli-ayam.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan Berat"
+        }
+      }
+    },
+    {
+      "id": "ff53",
+      "jumlah": 1,
+      "total_harga": 27500,
+      "product": {
+        "id": "2",
+        "kode": "MB-02",
+        "nama": "Nasi Gulai Kambing",
+        "harga": 27500,
+        "is_ready": true,
+        "gambar": "Nasi-gulai-kambing.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan Berat"
+        }
+      }
+    },
+    {
+      "jumlah": 2,
+      "total_harga": 40000,
+      "product": {
+        "id": "3",
+        "kode": "MB-03",
+        "nama": "Nasi Liwet",
+        "harga": 20000,
+        "is_ready": true,
+        "gambar": "Nasi-liwet.jpg",
+        "category": {
+          "id": 1,
+          "nama": "Makanan Berat"
+        }
+      },
+      "id": "3e5e"
+    }
+  ],
+  "orders": [
+    {
+      "id": "011b",
+      "total_payment": 49000,
+      "menus": [
+        {
+          "id": "c34d",
+          "jumlah": 1,
+          "total_harga": 27500,
+          "product": {
+            "id": "2",
+            "kode": "MB-02",
+            "nama": "Nasi Gulai Kambing",
+            "harga": 27500,
+            "is_ready": true,
+            "gambar": "Nasi-gulai-kambing.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan Berat"
+            }
+          }
+        },
+        {
+          "id": "7d78",
+          "jumlah": 1,
+          "total_harga": 13500,
+          "product": {
+            "id": "5",
+            "kode": "MR-02",
+            "nama": "Kentang Sosis",
+            "harga": 13500,
+            "is_ready": true,
+            "gambar": "Kentang-sosis.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Makanan Ringan"
+            }
+          }
+        },
+        {
+          "id": "b04c",
+          "jumlah": 1,
+          "total_harga": 8000,
+          "product": {
+            "id": "8",
+            "kode": "MI-02",
+            "nama": "Es Jeruk",
+            "harga": 8000,
+            "is_ready": true,
+            "gambar": "Es-jeruk.jpg",
+            "category": {
+              "id": 3,
+              "nama": "Minuman"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ef2b",
+      "total_payment": 49000,
+      "menus": [
+        {
+          "id": "c34d",
+          "jumlah": 1,
+          "total_harga": 27500,
+          "product": {
+            "id": "2",
+            "kode": "MB-02",
+            "nama": "Nasi Gulai Kambing",
+            "harga": 27500,
+            "is_ready": true,
+            "gambar": "Nasi-gulai-kambing.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan Berat"
+            }
+          }
+        },
+        {
+          "id": "7d78",
+          "jumlah": 1,
+          "total_harga": 13500,
+          "product": {
+            "id": "5",
+            "kode": "MR-02",
+            "nama": "Kentang Sosis",
+            "harga": 13500,
+            "is_ready": true,
+            "gambar": "Kentang-sosis.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Makanan Ringan"
+            }
+          }
+        },
+        {
+          "id": "b04c",
+          "jumlah": 1,
+          "total_harga": 8000,
+          "product": {
+            "id": "8",
+            "kode": "MI-02",
+            "nama": "Es Jeruk",
+            "harga": 8000,
+            "is_ready": true,
+            "gambar": "Es-jeruk.jpg",
+            "category": {
+              "id": 3,
+              "nama": "Minuman"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "1a39",
+      "total_payment": 49000,
+      "menus": [
+        {
+          "id": "c34d",
+          "jumlah": 1,
+          "total_harga": 27500,
+          "product": {
+            "id": "2",
+            "kode": "MB-02",
+            "nama": "Nasi Gulai Kambing",
+            "harga": 27500,
+            "is_ready": true,
+            "gambar": "Nasi-gulai-kambing.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan Berat"
+            }
+          }
+        },
+        {
+          "id": "7d78",
+          "jumlah": 1,
+          "total_harga": 13500,
+          "product": {
+            "id": "5",
+            "kode": "MR-02",
+            "nama": "Kentang Sosis",
+            "harga": 13500,
+            "is_ready": true,
+            "gambar": "Kentang-sosis.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Makanan Ringan"
+            }
+          }
+        },
+        {
+          "id": "b04c",
+          "jumlah": 1,
+          "total_harga": 8000,
+          "product": {
+            "id": "8",
+            "kode": "MI-02",
+            "nama": "Es Jeruk",
+            "harga": 8000,
+            "is_ready": true,
+            "gambar": "Es-jeruk.jpg",
+            "category": {
+              "id": 3,
+              "nama": "Minuman"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "5b9d",
+      "total_payment": 20000,
+      "menus": [
+        {
+          "id": "be24",
+          "jumlah": 1,
+          "total_harga": 20000,
+          "product": {
+            "id": "3",
+            "kode": "MB-03",
+            "nama": "Nasi Liwet",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "Nasi-liwet.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan Berat"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "18a2",
+      "total_payment": 47500,
+      "menus": [
+        {
+          "id": "21c3",
+          "jumlah": 1,
+          "total_harga": 20000,
+          "product": {
+            "id": "3",
+            "kode": "MB-03",
+            "nama": "Nasi Liwet",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "Nasi-liwet.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan Berat"
+            }
+          }
+        },
+        {
+          "id": "da47",
+          "jumlah": 1,
+          "total_harga": 27500,
+          "product": {
+            "id": "2",
+            "kode": "MB-02",
+            "nama": "Nasi Gulai Kambing",
+            "harga": 27500,
+            "is_ready": true,
+            "gambar": "Nasi-gulai-kambing.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan Berat"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "d9d2",
+      "total_payment": 33500,
+      "menus": [
+        {
+          "id": "87d1",
+          "jumlah": 1,
+          "total_harga": 20000,
+          "product": {
+            "id": "3",
+            "kode": "MB-03",
+            "nama": "Nasi Liwet",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "Nasi-liwet.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan Berat"
+            }
+          }
+        },
+        {
+          "id": "41da",
+          "jumlah": 1,
+          "total_harga": 13500,
+          "product": {
+            "id": "5",
+            "kode": "MR-02",
+            "nama": "Kentang Sosis",
+            "harga": 13500,
+            "is_ready": true,
+            "gambar": "Kentang-sosis.jpg",
+            "category": {
+              "id": 2,
+              "nama": "Makanan Ringan"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "788b",
+      "total_payment": 20000,
+      "menus": [
+        {
+          "id": "4c73",
+          "jumlah": 1,
+          "total_harga": 20000,
+          "product": {
+            "id": "3",
+            "kode": "MB-03",
+            "nama": "Nasi Liwet",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "Nasi-liwet.jpg",
+            "category": {
+              "id": 1,
+              "nama": "Makanan Berat"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
